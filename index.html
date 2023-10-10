@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Form Pendaftaran</h1>
+            <div class="input">
+                <label for="username">Nama : </label>
+                <input id="username" type="text" name="username">
+                <div id="error"></div>
+            </div>
+            <div class="input">
+                <label for="Email">Email : </label>
+                <input id="Email" type="text" name="Email">
+                <div id="error"></div>
+            </div>
+            <div class="input">
+                <label for="Alamat">Alamat : </label>
+                <input id="Alamat" type="text" name="Alamat">
+                <div id="error"></div>
+            </div>
+            <button type="submit" onclick="validateInputs()">Daftar</button>
+        </form>
+    </div>
+
+</body>
+</html>
